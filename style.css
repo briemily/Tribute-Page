@@ -1,0 +1,56 @@
+body {
+  background-color: #EBEEFB;
+}
+
+#title {
+  font-family: 'Poiret One', cursive;
+  color: #44a28c;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Poiret One', cursive;
+  font-size: 35px;
+  color: #E8492B;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+#events {
+  font-family: 'Poiret One', cursive;
+  font-size: 31px;
+  color: #44a28c;
+  font-weight: bold;
+}
+
+#rcorners1 {
+  background: #dbf0eb;
+  border-radius: 25px;
+  padding: 15px;
+  height: 450px;
+  border: solid;
+  border-color: #94d1c3;
+}
+
+@media only screen and (max-width: 768px) {
+  #rcorners1 {
+    background: #dbf0eb;
+    border-radius: 25px;
+    padding: 15px;
+    border: solid;
+    height: auto;
+    border-color: #94d1c3;
+  }
+}
+
+.classWithPad {
+  margin: 0px;
+  padding: 0px;
+}
+
+.img-responsive {
+  margin: 0 auto;
+}
